@@ -60,15 +60,16 @@ trimEnd()
 trimStart()
 valueOf() : Return a primitive value of a string or object
 */
-let sentence = "I love programming";
-let index = 3;
-console.log(`charAt(${index}): ${sentence.charAt(index)}`);
-console.log(`concat(): ${sentence.concat(' and database.')}`);
-console.log(`endsWith(): ${sentence.endsWith(' and database.')}`);
-console.log(`includes(): ${sentence.includes('love')}`);
+let sentence = "I bloody love programming";
+// console.log(sentence[0]);
+let index = 0;
+// console.log(`charAt(${index}): ${sentence.charAt(index)}`);
+// console.log(`concat(): ${sentence.concat(' Hacking and database.')}`);
+// console.log(`endsWith(): ${sentence.endsWith(' and database.')}`);
+// console.log(`includes(): ${sentence.includes('love')}`);
 // indexOf(what to search for, optional : where to start from)
-console.log(`indexOf(): ${sentence.indexOf('g')}`);
-console.log(`lastIndexOf(): ${sentence.lastIndexOf('o')}`);
+// console.log(`indexOf(): ${sentence.indexOf('g')}`);
+// console.log(`lastIndexOf(): ${sentence.lastIndexOf('o')}`);
 // console.log(`(): ${sentence.concat(' and database.')}`);
 // console.log(`(): ${sentence.concat(' and database.')}`);
 // console.log(`(): ${sentence.concat(' and database.')}`);
